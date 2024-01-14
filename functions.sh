@@ -15,8 +15,8 @@ echo  Functions EXIt status $?
 input() {
   echo first arguements - $1
   echo second arguements - $2
-  echo  third arguements - $*
-  echo  fourth arguements - $#
+  echo  all arguements - $*
+  echo  no of arguements - $#
 }
 
 input abc 1234
